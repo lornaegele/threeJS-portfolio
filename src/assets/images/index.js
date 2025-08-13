@@ -25,6 +25,7 @@ import Websockets5 from "./Websockets/websockets_p-5.png";
 import netflix1 from "./netflix_1.png";
 import spotify1 from "./spotify_1.png";
 import frischzeit1 from "./frischzeit_1.png";
+import portrait from "./portrait_no_bg.png";
 
 export {
   hero,
@@ -54,4 +55,5 @@ export {
   netflix1,
   spotify1,
   frischzeit1,
+  portrait,
 };

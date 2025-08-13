@@ -7,18 +7,28 @@ import { CTA } from "../components";
 import { experiences, skills } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
+import { portrait } from "../assets/images";
 
 const About = () => {
   return (
     <section className="max-container">
-      <h1 className="head-text">
-        Hello, I'm{" "}
-        <span className="blue-gradient_text font-semibold drop-shadow">
-          {" "}
-          Lorenz
-        </span>{" "}
-        👋
-      </h1>
+      <div className="flex flex-row justify-start items-center gap-8">
+        <div>
+          <img
+            src={portrait}
+            alt="threads"
+            className="h-32 rounded-2xl object-contain top-0"
+          />
+        </div>
+        <h1 className="head-text">
+          Hello, I'm
+          <span className="blue-gradient_text font-semibold drop-shadow">
+            {" "}
+            Lorenz{" "}
+          </span>
+          👋
+        </h1>
+      </div>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
