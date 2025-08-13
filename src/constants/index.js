@@ -171,43 +171,42 @@ export const projects = [
     thumbail: AiRes1,
     name: "AI Resume Analyzer",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
+      "React app with React Router and AI model Cloud 3.7, you can upload resumes to get job-specific feedback and improvement suggestions.",
     link: "https://github.com/lornaegele/ai-pdf-resume-analyzer",
   },
   {
-    name: "FreshNow IOS App",
     thumbail: frischzeit1,
-
+    name: "FreshNow IOS App",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+      "iOS app in German (Frischzeit) built with React Native; provides users with essential health information and insights on daily nutrition.",
     link: "https://github.com/lornaegele/fresh-now",
   },
   {
     thumbail: Websockets1,
     name: "Websockets Chat and Draw",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
+      "Angular app with Node.js backend using WebSockets for real-time chat and collaborative drawing, demonstrating interactive web technology.",
     link: "https://github.com/lornaegele/websockets-chat-and-draw",
   },
   {
     thumbail: LorVis1,
     name: "Visuals Portfolio",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
+      "Next.js 14 film portfolio showcasing my visual work, using modern routing, folder structures, and slugs for smooth navigation.",
     link: "https://github.com/lornaegele/film-portfolio",
   },
   {
     thumbail: spotify1,
     name: "Spotify Clone",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
+      "React app leveraging the Shazam Rapid API to fetch, display, and play songs, providing a dynamic music discovery experience.",
     link: "https://github.com/lornaegele/spotify-clone",
   },
   {
     thumbail: netflix1,
     name: "Netflix Clone",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
+      "React application replicating key Netflix features, showcasing media content with a modern UI and interactive functionality.",
     link: "https://github.com/lornaegele/netflix-clone",
   },
 ];
