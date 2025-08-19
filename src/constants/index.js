@@ -151,6 +151,19 @@ export const experiences = [
       "Continuous optimization of the online shop and processes.",
     ],
   },
+  {
+    title: "Apprenticeship in E-Commerce",
+    company_name: "Heiss GmbH",
+    icon: bicycle,
+    iconBg: "#b7e4c7",
+    date: "Sep 2018 - jun 2021",
+    points: [
+      "Project management, migration of the shop to Shopware 6.",
+      "Creation of user-oriented and SEO-optimized content",
+      "Maintenance of Google Shopping data feed and running ads.",
+      "Continuous optimization of the online shop and processes.",
+    ],
+  },
 ];
 
 export const socialLinks = [
