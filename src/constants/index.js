@@ -2,19 +2,13 @@ import {
   AiRes1,
   frischzeit1,
   LorVis1,
-  meta,
   netflix1,
-  shopify,
   spotify1,
-  starbucks,
-  tesla,
+  aiLearingPlattform,
   Websockets1,
 } from "../assets/images";
 import {
-  car,
-  contact,
   css,
-  estate,
   git,
   github,
   html,
@@ -27,14 +21,10 @@ import {
   react,
   redux,
   sass,
-  snapgram,
-  summiz,
   tailwindcss,
-  threads,
   typescript,
   binarystate,
   bicycle,
-  aiIcon,
 } from "../assets/icons";
 
 export const skills = [
@@ -180,6 +170,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    thumbail: aiLearingPlattform,
+    name: "SaaS AI Learning Platform",
+    description:
+      "SaaS platform built with Next.js, Clerk for authentication, Supabase as the database, and Vapi powered by OpenAI. It enables users to create and manage AI Companions they can interact with in real time through voice conversations.",
+    link: "https://ai-learn-plattform.vercel.app",
+  },
   {
     thumbail: AiRes1,
     name: "AI Resume Analyzer",
