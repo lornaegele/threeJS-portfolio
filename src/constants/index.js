@@ -162,11 +162,11 @@ export const socialLinks = [
     iconUrl: github,
     link: "https://github.com/lornaegele",
   },
-  {
-    name: "LinkedIn",
-    iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/lorenz-naegele-43b571210/",
-  },
+  // {
+  //   name: "LinkedIn",
+  //   iconUrl: linkedin,
+  //   link: "https://www.linkedin.com/in/lorenz-naegele-43b571210/",
+  // },
 ];
 
 export const projects = [
